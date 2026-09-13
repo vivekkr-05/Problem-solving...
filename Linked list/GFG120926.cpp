@@ -1,7 +1,7 @@
 // Given a singly linked list, remove all nodes that have a node with a greater value anywhere to their right in the list.
 // Return the head of the modified linked list.
 
-/* Structure of a Linked List node
+// Structure of a Linked List node
 class Node {
 	public:
 	int data;
@@ -12,7 +12,7 @@ class Node {
 		next = nullptr;
 	}
 };
-*/
+
 class Solution {
 public:
     Node *compute(Node *head) {
