@@ -2,7 +2,9 @@
 
 // Given an array arr[], with starting index low and ending index high,
 // complete the functions partition() and quickSort() so that the array becomes sorted in ascending order.
-
+#include <vector>
+#include <utility>
+using namespace std;
 
 class Solution {
 	public:
