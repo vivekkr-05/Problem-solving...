@@ -4,7 +4,6 @@
 class Solution {
   public:
     bool isPalindrome(vector<int> &arr) {
-        // code here
         int n=(1+arr.size())/2;
         int a=arr.size();
         for(int i=0; i<=n; i++){
